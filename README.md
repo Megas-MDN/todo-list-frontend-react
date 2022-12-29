@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# To Do List - Full stack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
-## Available Scripts
+## Apêndice
 
-In the project directory, you can run:
+O backend da aplicação pode ser verificado nesse link: https://github.com/Megas-MDN/api-todo-mongodb
 
-### `npm start`
+## Demonstração
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![login](https://i.imgur.com/nTktuCA.gif)
+![error](https://i.imgur.com/53w9Qg2.gif)
+![relogin](https://i.imgur.com/sOZylBo.gif)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+- Login
+- Criar
+- Editar
+- Excluir
+- Logout
+- Persistencia das tasks no banco de dados
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalação
 
-### `npm run build`
+- Clone o repositório
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - Use o comando: `git clone https://github.com/Megas-MDN/todo-list-frontend-react.git`
+  - Entre na pasta do repositório que você acabou de clonar:
+    - `cd todo-list-frontend-react`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Instale as dependências com npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm install
+```
 
-### `npm run eject`
+- Inicialize o projeto:
+  - `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Stack utilizada
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Front-end:** React, React Router DOM, Axios, React Icon e TailwindCSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Back-end:** Node, Express, Json Web Token, Mongo DB e Bcrypt.
