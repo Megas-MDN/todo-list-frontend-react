@@ -1,6 +1,6 @@
 # To Do List - Full stack
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
+Esta aplicação foi projetada para fornecer suporte a um aplicativo de gerenciamento de tarefas, com funcionalidades de criação, edição, login, logout e autenticação. Ela utiliza o MongoDB Atlas como banco de dados e o React como interface do usuário. O objetivo é oferecer uma solução rápida e eficiente para a gestão de tarefas pessoais, permitindo que os usuários acessem e manipulem seus dados de maneira fácil e intuitiva.
 
 ## Apêndice
 
